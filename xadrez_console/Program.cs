@@ -16,6 +16,7 @@ namespace xadrez_console
                 {
                     try
                     {
+                        Tela.imprimirPartida(partida);
                         Console.Clear();
                         Tela.imprimirTabuleiro(partida.tab);
 
